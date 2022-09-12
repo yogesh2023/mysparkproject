@@ -6,8 +6,8 @@ sc = spark.sparkContext
 
 
 # You might need to set these
-sc._jsc.hadoopConfiguration().set("fs.s3n.awsAccessKeyId", "AKIAR3P5RBDFVL6O2ZXE")
-sc._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey", "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")
+sc._jsc.hadoopConfiguration().set("xxxxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxxx")
+sc._jsc.hadoopConfiguration().set("fs.s3n.awsSecretAccessKey", "xxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 # Set options below
 sfOptions = {
